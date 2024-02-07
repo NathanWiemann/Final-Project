@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>South Korea Travel Guide</title>
+</head>
+<body>
+    <header>
+        <h1>South Korea Travel Guide</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="culture.html">Culture & Attractions</a></li>
+            <li><a href="esports.html">Esports</a></li>
+            <li><a href="food.html">Food</a></li>
+            <li><a href="hotels.html">Hotels</a></li>
+        </ul>
+    </nav>
+    <section id="map">
+        <h2>Welcome to South Korea</h2>
+        <p>To learn more about a few of South Korea's most popular cities, click on them in the map below!</p>
+        <img src="css/images/SKmap.png" alt="Map of South Korea" usemap="#skmap" height=500>
+        <map name="#skmap">
+            <area shape="rect" coords="280,115,360,165" alt="Seoul" href="#Seoul">
+            <area shape="rect" coords="180,160,280,200" alt="Incheon" href="#Incheon">
+            <area shape="rect" coords="290,260,370,300" alt="Daejeon" href="#Daejeon">
+            <area shape="rect" coords="385,290,450,330" alt="Daegu" href="#Daegu">
+            <area shape="rect" coords="455,380,510,415" alt="Busan" href="#Busan">
+            <area shape="rect" coords="500,280,575,315" alt="Pohang" href="#Pohang">
+        </map>
+    </section>
+    <section id="Seoul">
+        <h2>Seoul</h2>
+        <p>
+            Seoul, the capital of South Korea, is a lively city by the Han River. It's known for its bustling markets where you can shop for anything from clothes to local snacks. With a mix of modern tech and traditional culture, Seoul offers a vibrant atmosphere with plenty of entertainment, making it a great place for both locals and visitors.
+        </p>
+        <img src="css/images/seoul.jpg" alt="Image of Seoul" height=300>
+        <br>
+        <a href="#map">Back to the Map</a>
+    </section>
+     <section id="Incheon">
+        <h2>Incheon</h2>
+        <p>
+            Incheon is known for its busy seaport and an international airport that connects the country to the world. With a mix of coastal landscapes and urban areas, Incheon offers visitors a chance to enjoy both the sea breeze and the city buzz.
+        </p>
+        <img src="css/images/incheon.jpg" alt="Image of Incheon" height=300>
+        <br>
+        <a href="#map">Back to the Map</a>
+    </section>
+     <section id="Daejeon">
+        <h2>Daejon</h2>
+        <p>
+            Daejeon is popular for its scientific and educational vibe, hosting many universities and research centers. The city offers a mix of lively energy, tasty food spots, and cultural sites to explore. Daejeon's friendly atmosphere makes it a pleasant place for both locals and those looking to experience South Korean life.
+        </p>
+        <img src="css/images/daejeon.jpg" alt="Image of Daejeon" height=300>
+        <br>
+        <a href="#map">Back to the Map</a>
+    </section>
+     <section id="Daegu">
+        <h2>Daegu</h2>
+        <p>
+            Daegu is known for its warm hospitality and a blend of traditional and modern charm. With a variety of local markets, Daegu offers a flavorful experience for those looking to try authentic Korean dishes. The city's relaxed pace, friendly locals, and cultural attractions make it a welcoming destination for visitors seeking a taste of South Korean life.
+        </p>
+        <img src="css/images/daegu.jpg" alt="Image of Daegu" height=300>
+        <br>
+        <a href="#map">Back to the Map</a>
+    </section>
+     <section id="Busan">
+        <h2>Busan</h2>
+        <p>
+            Busan captivates with its picturesque beaches and vibrant local markets. Famous for its fresh seafood and lively atmosphere, Busan invites visitors to enjoy delicious meals by the ocean and explore colorful street vendors. The city's laid-back coastal vibe, combined with its cultural sites, creates a welcoming and memorable experience for both locals and tourists.
+        </p>
+        <img src="css/images/busan.jpg" alt="Image of Busan" height=300>
+        <br>
+        <a href="#map">Back to the Map</a>
+    </section>
+     <section id="Pohang">
+        <h2>Pohang</h2>
+        <p>
+            Pohang is known for its scenic coastline and friendly community. With its relaxed atmosphere, Pohang offers visitors a chance to enjoy coastal walks and serene views. The city's charm lies in its simplicity, making it a pleasant destination for those seeking a peaceful getaway.
+        </p>
+        <img src="css/images/pohang.jpg" alt="Image of Pohang" height=300>
+        <br>
+        <a href="#map">Back to the Map</a>
+    </section>
+
+    <section>
+        <fieldset>
+            <Legend>Questions</Legend>
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-25">
+                        <label for="fname">First Name:</label>
+                        </div>
+                        <div class="col-75">
+                        <input type="text" name="First Name" placeholder="Your First Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                        <label for="lname">Last Name:</label>
+                        </div>
+                        <div class="col-75">
+                        <input type="text" name="Last Name" placeholder="Your Last Name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                        <label for="Email">Email Address:</label>
+                        </div>
+                        <div class="col-75">
+                        <input type="text" name="Email Address" placeholder="example@example.com">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                        <label for="Question">Question:</label>
+                        </div>
+                        <div class="col-75">
+                        <input type="text" name="Question" placeholder="Your Question" style="height:100px">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </fieldset>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 South Korea Tour Guide</p>
+    </footer>
+</body>
+</html>
